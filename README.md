@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project analyzes workplace incident data using Power BI to identify safety trends, high-risk incident categories, severity patterns, and operational impact across different workplace environments.
+This piwer BI project analyzes workplace incident data using Power BI to identify safety trends, high-risk incident categories, severity patterns, and operational impact across different workplace environments (departments, plants, and shifts).
 
 The dashboard was designed to help organizations:
 
@@ -13,9 +13,11 @@ The dashboard was designed to help organizations:
 * Analyze incident severity trends over time
 * Support data-driven safety improvement decisions
 
-This Power BI project analyzes workplace incident data to identify safety trends, operational risks, and incident severity patterns across departments, plants, and shifts.
+  
 
 The dashboard includes KPI monitoring, trend analysis, drill-down exploration, and root-cause analysis using decomposition trees and operational risk comparisons to identify key drivers of workplace incidents.
+
+
 
 
 ---
@@ -25,15 +27,11 @@ The dashboard includes KPI monitoring, trend analysis, drill-down exploration, a
 * **Power BI** – Dashboard design & data visualization
 * **Power Query** – Data cleaning and transformation
 * **DAX** – KPI calculations and measures
-* **Excel / CSV datasets** – Source data
+* **Excel / CSV datasets** – Source data (Workplace Safety Dataset.xlxs)
 
 ---
 
-## Dashboard Page
-
-## Report Pages
-### 1. Executive Dashboard
-
+## Executive Dashboard
 Provides a high-level overview of workplace incidents through KPIs and summary visualizations.
 
 Key elements:
@@ -42,9 +40,11 @@ Key elements:
 * Severity distribution
 * Incident trends over time
 * Comparison of Incident Patterns by Department, Plant, and Incident Type
-* Interactive slicers for quick filtering by year
-  
-### 2. Incident Overview
+* Interactive slicer for quick filtering by year
+
+## Report Pages
+
+### 1. Incident Overview
 
 Focuses on understanding the distribution of incidents across categories, locations, or operational areas.
 
