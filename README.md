@@ -80,8 +80,8 @@ Examines the operational and financial impact of workplace incidents.
 
 Cross-departmental analysis of incident type, cost, and severity.
 
-* Top cost combinations: Shipping Slip/Trip ($19,137), Shipping Cut ($18,058), Maintenance Equipment ($17,579)
-* Burn injuries span 4+ departments: Finishing, Maintenance, Painting, Melting
+* Top cost combinations: Shipping _ Slip/Trip ($19,137), Shipping _ Cut ($18,058), Maintenance _ Equipment ($17,579)
+* Burn injuries span 3 departments: Burn injuries are the top incident type occurring across more than four departments, including Finishing, Maintenance, Painting.
 * Vehicle incidents: low frequency (50 cases) but disproportionately high cost and lost days
 * Percentage of incident types by department and gender
 
