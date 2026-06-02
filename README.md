@@ -65,7 +65,7 @@ Analyzes how workplace incidents evolve over time and highlights risk patterns.
 * Workday risk: Tuesday (87) and Friday (82) are the highest-risk days
 * Report type breakdown: Near Miss (139) → First Aid (114)
 
-### 4. Impact Analysis
+### Impact Analysis
 
 Examines the operational and financial impact of workplace incidents.
 
@@ -76,12 +76,12 @@ Examines the operational and financial impact of workplace incidents.
 
 ---
 
-### 5. Root-Cause Insights
+### Root-Cause Insights
 
 Cross-departmental analysis of incident type, cost, and severity.
 
 * Top cost combinations: Shipping _ Slip/Trip ($19,137), Shipping _ Cut ($18,058), Maintenance _ Equipment ($17,579)
-* Burn injuries span 3 departments: Burn injuries are the top incident type occurring across more than four departments, including Finishing, Maintenance, Painting.
+* Burn injuries span 3 departments: Burn injuries are the top incident type occurring across more than three departments, including Finishing, Maintenance, Painting.
 * Vehicle incidents: low frequency (50 cases) but disproportionately high cost and lost days
 * Percentage of incident types by department and gender
 
@@ -100,6 +100,30 @@ Vehicle incidents rank 8th in frequency but carry some of the highest per-case c
 The monthly time series shows no consistent downward trajectory across the three-year period, with incident counts fluctuating between ~10–26/month. Current safety measures are not producing measurable gains — a programmatic review is recommended.
 
 
+
+## Recommendations
+PriorityActionTarget🔴 HighAnti-slip flooring + cut-prevention protocolsShipping🔴 HighCross-departmental burn prevention programFinishing, Maintenance, Painting, Melting🟠 MediumEnhanced machine guarding + PPE enforcementFabrication🟠 MediumVehicle/forklift safety trainingAll plants🟠 MediumInvestigate Tuesday & Friday workload patternsAll departments🟡 LowErgonomics training for workers 50+Operations🟡 LowNear-miss response protocols for afternoon shiftAll departments
+
+## Skills Demonstrated
+
+Data cleaning and preparation (Power Query)
+KPI development using DAX
+Dashboard storytelling and layout design
+Data visualization best practices
+Trend and time-series analysis
+Cost-severity risk analysis
+Business insight generation
+Interactive drill-down dashboard design
+
+
+Business Value
+This dashboard enables organizations to:
+
+Improve workplace safety monitoring across sites and departments
+Quantify the financial and human cost of incidents
+Prioritize preventive measures based on frequency and severity
+Identify recurring safety issues before they escalate
+Support compliance, reporting visibility, and executive decision-making
 
 
 
@@ -214,17 +238,6 @@ This dashboard enables organizations to:
 * Enhance compliance and reporting visibility
 
 
-# Recommended Screenshots for GitHub
-
-Include:
-
-1. Main dashboard overview
-2. KPI section
-3. Trend analysis page
-4. Severity analysis visuals
-5. Interactive slicers and filters
-
----
 
 # Suggested LinkedIn Project Description
 
