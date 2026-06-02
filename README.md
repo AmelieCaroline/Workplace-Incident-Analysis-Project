@@ -4,21 +4,16 @@
 
 ## Overview
 
-This piwer BI project analyzes workplace incident data using Power BI to identify safety trends, high-risk incident categories, severity patterns, and operational impact across different workplace environments (departments, plants, and shifts).
+This Power BI project analyzes 514 workplace safety incidents recorded across multiple plants, departments, and shifts between January 2020 and December 2022. The goal is to identify patterns in incident frequency, severity, and cost — and surface actionable insights to reduce operational risk and improve workplace safety.
 
 The dashboard was designed to help organizations:
 
-* Monitor workplace safety performance
-* Identify high-risk areas and recurring incidents
-* Analyze incident severity trends over time
+* Monitor workplace safety performance across plants and departments
+* Identify high-risk incident categories (burns, falls, slip/trips)
+* Analyze the financial and human cost of incidents over time
 * Support data-driven safety improvement decisions
 
-  
-
-The dashboard includes KPI monitoring, trend analysis, drill-down exploration, and root-cause analysis using decomposition trees and operational risk comparisons to identify key drivers of workplace incidents.
-
-
-
+The dashboard includes KPI monitoring, trend analysis, drill-down exploration, operational risk comparisons, and root-cause analysis using a line and clustered bar chart with dual axis.
 
 ---
 
@@ -31,58 +26,85 @@ The dashboard includes KPI monitoring, trend analysis, drill-down exploration, a
 
 ---
 
-## Executive Dashboard
-Provides a high-level overview of workplace incidents through KPIs and summary visualizations.
+## Key Metrics at a Glance
+* Total Incidents: 514
+* Total Incident Cost: $717,800
+* Total Lost Days: 378.5
+* Average Days Lost per Incident: 0.74
+* Lost Time Rate: 73.64%
 
-Key elements:
+Over 73% of incidents resulted in lost work time — highlighting a significant human and productivity impact beyond direct medical costs.
 
-* Total incidents
-* Severity distribution
-* Incident trends over time
-* Comparison of Incident Patterns by Department, Plant, and Incident Type
-* Interactive slicer for quick filtering by year
+--- 
 
 ## Report Pages
 
-### 1. Incident Overview
+### Executive Dashboard
+High-level overview of workplace incidents through KPIs and summary visualizations.
 
-Focuses on understanding the distribution of incidents across categories, locations, or operational areas.
+* Total incidents, cost, lost days, and lost time rate
+* Incident distribution by plant (Montana 12.45% → Purchasing 8.37%)
+* Incident distribution by department (Shipping leads at 13.23%)
+* Interactive year slicer (2020, 2021, 2022)
 
-Key analyses:
+### Incident Overview
 
-* Most common incident types
-* Incident frequency by department
-* Comparative analysis between incident categories
-* Distribution of reported cases
+Focuses on understanding the distribution of incidents across categories and operational areas.
 
-### 3. Trends & Risk Severity
+* Most common incident types: Burn (65), Fall (63), Slip/Trip (62)
+* Incident frequency by department and shift
+* Gender breakdown: Male 89.11% | Female 10.89%
+* Top injury body locations: Back (51), Feet (49), Head (49)
 
-Analyzes how workplace incidents evolve over time and highlights risk severity patterns.
+### Trends & Risk Severity
 
-Key analyses:
+Analyzes how workplace incidents evolve over time and highlights risk patterns.
 
-* Monthly/Yearly incident trends
-* Severity progression analysis
-* Incident trends over time
-* High-risk periods
-* 
-* ##### ###### Trend forecasting indicators
+* Monthly incident trend (Jan 2020 – Dec 2022): peaks in March (56), July (55), January (53)
+* Shift distribution: Day 34.63% | Night 34.24% | Afternoon 31.13%
+* Workday risk: Tuesday (87) and Friday (82) are the highest-risk days
+* Report type breakdown: Near Miss (139) → First Aid (114)
 
 ### 4. Impact Analysis
 
-Examines the operational and organizational impact of workplace incidents.
+Examines the operational and financial impact of workplace incidents.
 
-Key analyses:
-
-* Departments with highest impact
-* Severity vs frequency relationships
-* Areas requiring preventive action
-* Comparative operational risk analysis
+* Days lost by department: Fabrication leads (60 days) despite lower incident count
+* Total cost by plant: Florida highest, California lowest
+* Age group analysis: 25–34 most affected (29.57%), 18–24 least (20.62%)
+* Days Lost vs. Incident Count scatter: negative correlation — fewer but more severe incidents in some types
 
 ---
 
-
 ### 5. Root-Cause Insights
+
+Cross-departmental analysis of incident type, cost, and severity.
+
+* Top cost combinations: Shipping Slip/Trip ($19,137), Shipping Cut ($18,058), Maintenance Equipment ($17,579)
+* Burn injuries span 4+ departments: Finishing, Maintenance, Painting, Melting
+* Vehicle incidents: low frequency (50 cases) but disproportionately high cost and lost days
+* Percentage of incident types by department and gender
+
+---
+
+## Key Insights
+🔴 Insight 1 — Shipping Is the Highest-Risk, Highest-Cost Department
+Shipping accounts for the most incidents (13.23%) and appears three times in the top 10 costliest incident combinations. Slip/trips and cuts in Shipping alone cost nearly $20K each. Anti-slip flooring, cut-prevention PPE, and workflow safety audits are the clearest intervention targets.
+🔴 Insight 2 — Fabrication: Fewer Incidents, But Most Days Lost
+Despite ranking 8th in incident frequency (9.73%), Fabrication leads all departments in lost days (60). This signals more severe injuries per event — likely due to machinery and falling object hazards. Machine guarding and PPE compliance require immediate attention.
+🟠 Insight 3 — Burns Are the Most Pervasive Incident Type
+Burns are the single most frequent incident type (65 cases) and appear as high-cost events across Finishing, Maintenance, Painting, and Melting. A cross-departmental burn prevention program — heat-resistant PPE, equipment maintenance schedules, and handler training — is warranted.
+🟠 Insight 4 — Vehicle Incidents Punch Above Their Weight
+Vehicle incidents rank 8th in frequency but carry some of the highest per-case costs and lost workdays. Forklift safety training and pedestrian/vehicle traffic management in work zones should be reviewed.
+🟡 Insight 5 — No Sustained Improvement Trend (2020–2022)
+The monthly time series shows no consistent downward trajectory across the three-year period, with incident counts fluctuating between ~10–26/month. Current safety measures are not producing measurable gains — a programmatic review is recommended.
+
+
+
+
+
+
+
 Insight 1
 
 “Most high-cost incidents originate from lost-time cases within operational departments such as Fabrication and Painting.”
