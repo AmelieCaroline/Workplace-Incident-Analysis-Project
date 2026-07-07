@@ -83,26 +83,33 @@ Cross-departmental analysis of incident type, cost, and severity.
 * Top cost combinations: Shipping _ Slip/Trip ($19,137), Shipping _ Cut ($18,058), Maintenance _ Equipment ($17,579)
 * Burn injuries span 3 departments: Burn injuries are the top incident type occurring across more than three departments, including Finishing, Maintenance, Painting.
 * Vehicle incidents: low frequency (50 cases) but disproportionately high cost and lost days
-* Percentage of incident types by department and gender
 
 ---
 
 ## Key Insights
-🔴 Insight 1 — Shipping Is the Highest-Risk, Highest-Cost Department
+* Insight 1 — Shipping Is the Highest-Risk, Highest-Cost Department
 Shipping accounts for the most incidents (13.23%) and appears three times in the top 10 costliest incident combinations. Slip/trips and cuts in Shipping alone cost nearly $20K each. Anti-slip flooring, cut-prevention PPE, and workflow safety audits are the clearest intervention targets.
-🔴 Insight 2 — Fabrication: Fewer Incidents, But Most Days Lost
+* Insight 2 — Fabrication: Fewer Incidents, But Most Days Lost. 
 Despite ranking 8th in incident frequency (9.73%), Fabrication leads all departments in lost days (60). This signals more severe injuries per event — likely due to machinery and falling object hazards. Machine guarding and PPE compliance require immediate attention.
-🟠 Insight 3 — Burns Are the Most Pervasive Incident Type
+* Insight 3 — Burns Are the Most Pervasive Incident Type
 Burns are the single most frequent incident type (65 cases) and appear as high-cost events across Finishing, Maintenance, Painting, and Melting. A cross-departmental burn prevention program — heat-resistant PPE, equipment maintenance schedules, and handler training — is warranted.
-🟠 Insight 4 — Vehicle Incidents Punch Above Their Weight
+* Insight 4 — Vehicle Incidents Punch Above Their Weight
 Vehicle incidents rank 8th in frequency but carry some of the highest per-case costs and lost workdays. Forklift safety training and pedestrian/vehicle traffic management in work zones should be reviewed.
-🟡 Insight 5 — No Sustained Improvement Trend (2020–2022)
-The monthly time series shows no consistent downward trajectory across the three-year period, with incident counts fluctuating between ~10–26/month. Current safety measures are not producing measurable gains — a programmatic review is recommended.
+* Insight 5 — No Sustained Improvement Trend (2020–2022)
+The monthly time series shows no consistent downward trajectory across the three-year period, with incident counts fluctuating between ~10–26/month. Current safety measures are not producing measurable gains — It is recommended to review them.
 
-
+---
 
 ## Recommendations
-PriorityActionTarget🔴 HighAnti-slip flooring + cut-prevention protocolsShipping🔴 HighCross-departmental burn prevention programFinishing, Maintenance, Painting, Melting🟠 MediumEnhanced machine guarding + PPE enforcementFabrication🟠 MediumVehicle/forklift safety trainingAll plants🟠 MediumInvestigate Tuesday & Friday workload patternsAll departments🟡 LowErgonomics training for workers 50+Operations🟡 LowNear-miss response protocols for afternoon shiftAll departments
+* High Anti-slip flooring + cut-prevention protocolsShipping
+* High Cross-departmental burn prevention programFinishing, Maintenance, Painting, Melting
+* Medium Enhanced machine guarding + PPE enforcementFabrication
+* Medium Vehicle/forklift safety trainingAll plants
+* Medium Investigate Tuesday & Friday workload patternsAll departments
+* Low Ergonomics training for workers 50+Operations
+* Low Near-miss response protocols for afternoon shiftAll departments
+
+---
 
 ## Skills Demonstrated
 
@@ -125,9 +132,7 @@ Prioritize preventive measures based on frequency and severity
 Identify recurring safety issues before they escalate
 Support compliance, reporting visibility, and executive decision-making
 
-
-
-
+---
 
 Insight 1
 
@@ -140,11 +145,12 @@ Insight 2
 Insight 3
 
 “Near misses occur more frequently during afternoon shifts, indicating potential operational fatigue or workflow congestion.”
+
+
 ---
 
-# Interpretations & Insights
 
-## Executive Dashboard Interpretations
+# Quick Executive Dashboard Interpretations & Insights
 
 ### Incident Concentration
 
@@ -210,74 +216,6 @@ Departments or categories with both high frequency and high severity should be p
 
 The dashboard provides management with actionable insights that can guide resource allocation, employee training, and policy improvements.
 
----
-
-# Skills Demonstrated
-
-This project demonstrates the following business intelligence and data analytics skills:
-
-* Data cleaning and preparation
-* KPI development using DAX
-* Dashboard storytelling
-* Data visualization best practices
-* Trend analysis
-* Risk analysis
-* Business insight generation
-* Interactive dashboard design
-
----
-
-# Business Value
-
-This dashboard enables organizations to:
-
-* Improve workplace safety monitoring
-* Reduce operational risks
-* Support proactive decision-making
-* Identify recurring safety issues early
-* Enhance compliance and reporting visibility
 
 
-
-# Suggested LinkedIn Project Description
-
-🚨 Workplace Incident Analysis Dashboard | Power BI
-
-Developed an interactive Power BI dashboard to analyze workplace incident data and identify operational safety risks.
-
-Key highlights:
-
-* Built KPI-driven executive dashboard
-* Analyzed incident severity and risk trends
-* Identified high-risk operational areas
-* Created interactive filters and drill-down visualizations
-* Generated actionable insights to support workplace safety decisions
-
-Skills used: Power BI, DAX, Power Query, Data Visualization, Risk Analysis, Dashboard Design
-
-#PowerBI #DataAnalytics #BusinessIntelligence #Dashboard #DataVisualization
-
----
-
-# Tips Before Uploading to GitHub
-
-* Export high-quality screenshots from Power BI
-* Add a professional banner image for the repository
-* Keep the README concise and visually organized
-* Include a short project objective at the top
-* Add a “Key Insights” section with 3–5 important findings
-* If possible, include sample datasets or anonymized data
-
----
-
-# Optional Enhancements
-
-Future improvements could include:
-
-* Predictive risk modeling
-* Incident forecasting
-* Real-time dashboard integration
-* Automated alerts for high-severity incidents
-* Geographic incident mapping
-* Root cause analysis visuals
 
