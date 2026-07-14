@@ -1,4 +1,4 @@
-# Workplace Incident Analysis Dashboard – Power BI Portfolio Project
+# Operational Safety & Process Improvement Analytics Dashboard – Power BI Portfolio Project
 
 ---
 
